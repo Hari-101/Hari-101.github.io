@@ -20,6 +20,7 @@ Here is a list of useful websites:
 # KL-Divergence
 1. [KL is all you Need](https://blog.alexalemi.com/kl-is-all-you-need.html)
 2. [Count Bayesie](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
-3. [6.5 intuitions for KL](https://www.lesswrong.com/posts/no5jDTut5Byjqb4j5/six-and-a-half-intuitions-for-kl-divergence)
-4. 
+3. [6.5 intuitions for KL Divergence](https://www.lesswrong.com/posts/no5jDTut5Byjqb4j5/six-and-a-half-intuitions-for-kl-divergence)
+4. [KL Divergence for ML](https://dibyaghosh.com/blog/probability/kldivergence.html)
+5. 
 
