@@ -15,6 +15,7 @@ Here is a list of useful websites:
 2. [Jeremy Jordan](https://www.jeremyjordan.me/)
 3. [Bandit Algs](https://banditalgs.com/)
 4. [Estimating Discrete Entropy](https://www.nowozin.net/sebastian/blog/estimating-discrete-entropy-part-1.html)
+5. [Windows On Theory](https://windowsontheory.org/2021/01/15/ml-theory-with-bad-drawings/)
 
 ---
 # KL-Divergence
