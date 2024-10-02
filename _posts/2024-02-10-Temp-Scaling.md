@@ -1,6 +1,6 @@
 ---
-title: 'Blog Post number 2'
-date: 2013-08-14
+title: 'Temperature Scaling is Order Preserving'
+date: 2024-02-10
 permalink: /posts/2013/08/blog-post-2/
 tags:
   - cool posts
