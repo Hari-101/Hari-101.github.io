@@ -22,7 +22,7 @@ tags:
 
 Model Represenation | Model Learning | **Model Inference**
 
-Here, "final" means whenever you feel like the model has been sufficiently trained such that you feel ready to start eliciting responses from it. This could be a base model or a fine-tuned model.
+Here, "final" means whenever you feel like the model has been sufficiently trained such that you feel ready to start eliciting responses from it. This could be a base model or a fine-tuned model or even a randomly initialised model!
 
 </details>
 
@@ -32,7 +32,6 @@ Here, "final" means whenever you feel like the model has been sufficiently train
 <summary>(Click to Collapse)</summary>
 
 - [From Decoding to Meta-Generation: Inference-time Algorithms for LLMs](https://arxiv.org/abs/2406.16838)
-  - 
 
 </details>
 
