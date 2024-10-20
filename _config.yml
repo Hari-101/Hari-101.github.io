@@ -21,7 +21,7 @@ repository               : "Hari-101/https://Hari-101.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Hari Narayan N U"
   pronouns         : # example: "she/her"  
   bio              : "Language Modeling Researcher"
