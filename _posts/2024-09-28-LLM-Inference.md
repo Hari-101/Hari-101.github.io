@@ -5,20 +5,17 @@ permalink: /posts/2014/08/blog-post-3/
 tags:
   - inference
 ---
-
-# Response Generation from an LLM/ LLM Inference 
-
-## Table of Contents
-
-- [Survey](#Survey)
-- [Blogs](#Blogs)
-
 ## Response Generation from an LLM/ Inference
 
 Model Represenation | Model Learning | Model Inference
 
 
 Here, "final" means whenever you feel like the model has been sufficiently trained such that you feel ready to start eliciting responses from it. This could be a base model or a fine-tuned model or even a randomly initialised model!
+
+## Table of Contents
+
+- [Survey](#Survey)
+- [Blogs](#Blogs)
 
 
 ### Survey
