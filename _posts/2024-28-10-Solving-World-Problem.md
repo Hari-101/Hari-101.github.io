@@ -16,15 +16,13 @@ For example, our problem at hand could be: How to tackle global warming?
 
 1) Lets assume we have an LLM-as-a-Judge/ Evaluator.
 Assumption: Our LLM evaluator is "good"/ "reasonable". ( Define?)
-The context length is \\(n\\) and vocabulary is set \\(V\\). Let \\(|V| = v\\). We shall keep the initial \\(m\\) tokens for the instruction and the proposed solution.
-Possible Prompt:
-'''{Expert Prompting?}. Your task is to evaluate the proposed idea for the given problem.
-Here is the problem: {problem}
-Here is the proposed solution: {solution}'''
-The rest \\((N-m)\\) tokens can be used to generate the evaluation response.
-
-2) Now write a python program to generate all the \\(v^m\\) strings /permutations of the tokens ( Let length of instruction << length of proposed solution). Also assume \\((n-m) << n\\). This just means we want to allott the majority chunk of the context for the proposed solution. (We want a well detailed solution!)
-
+The context length is \\(n\\) and vocabulary is set \\(V\\). Let \\(|V| = v\\). We shall keep the initial \\(m\\) tokens for the instruction and the proposed solution.\
+Possible Prompt:\
+'''{Expert Prompting?}. Your task is to evaluate the proposed idea for the given problem.\
+Here is the problem: {problem}\
+Here is the proposed solution: {solution}'''\
+The rest \\((N-m)\\) tokens can be used to generate the evaluation response.\
+2) Now write a python program to generate all the \\(v^m\\) strings /permutations of the tokens ( Let length of instruction << length of proposed solution). Also assume \\((n-m) << n\\). This just means we want to allott the majority chunk of the context for the proposed solution. (We want a well detailed solution!)\
 3) Pass each of the to the LLM evaluator! There you have it, a solution to your problem.
 
 ASSUMPTIONS:
