@@ -8,7 +8,7 @@ tags:
   - category2
 ---
 
-TLDR: Generate all possible string using a python program, evaluate each one using an LLM-Evaluator. But do we have a good enough verifier?
+TLDR: Generate all possible string using a python program, evaluate each one using an LLM-Evaluator. But do we have a good enough verifier? Also pruning the search space with the LLM.
 
 Related: Infinite Monkey Theorem, Automated Theorem Proving (1960s), Levins Universal Search(1973), Program Synthesis by enumeration
 
