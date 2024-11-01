@@ -4,9 +4,8 @@ collection: publications
 category: conferences
 permalink: /publication/2009-10-01-paper-title-number-1
 date: 2022-10-20
-venue: 'AIMLSystems '22: Proceedings of the Second International Conference on AI-ML Systems'
-paperurl: 'https://arxiv.org/abs/2209.09480'
-
+venue: "AIMLSystems '22: Proceedings of the Second International Conference on AI-ML Systems"
+paperurl: "https://arxiv.org/abs/2209.09480"
 ---
 
 Abstract: 
