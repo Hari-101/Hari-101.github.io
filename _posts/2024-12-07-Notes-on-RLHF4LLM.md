@@ -1,5 +1,5 @@
 ---
-title: 'Notes on RLHF for LLM'
+title: 'MDP Setting in RLHF for LLM'
 date: 2024-12-07
 permalink: /posts/2024/12/notes-rlhf4llm/
 tags:
@@ -8,7 +8,7 @@ tags:
   - Notes
 ---
 
-# RLHF Setting for LLM
+# One possible MDP Setting in RLHF for LLM at token level
 
 Let the vocabulary be set **V**.  
 Let an input query be:
@@ -23,13 +23,13 @@ $$
 
 - **State at time $t$:**  
   $$ S_t = S_{t-1} \cdot A_t $$  
-  where $\cdot$ denotes concatenation.
+  where $$\cdot$$ denotes concatenation.
 
 - **Action:**  
   $$ A_t \in V $$
 
 - **Policy/Agent:**  
-  The LLM $\pi$, where:  
+  The LLM $$\pi$$, where:  
   $$ A_t = \pi(S_t) $$
 
 - **Environment/Transition Function:** 
@@ -45,7 +45,19 @@ P(S_{t+1}, R_{t+1} \mid S_t, A_t) = \begin{cases}
 \end{cases}
 $$
 
-where $\gamma(S_t)$ is the reward model.
+where $$\gamma$$ is the learned reward model.
+
+## Structures Observed
+Some structural observations that could be possibly exploited for better algorithms:
+
+1. As opposed to a conventional DRL setup (let's say a computer screen as the state, some Atari game) where the dimensionality of the state remains fixed throughout,\
+   in the LLM setup, the dimensionality increases by a unit after every action (i.e., if the state is represented by 1 token at t=0, at t=1, it becomes 1 + the selected action in the previous time = 2), and so on, at t=3, 3 etc.
+
+2. The specific nature of the transition function, i.e., the concatenation of $$S_t$$ and $$A_t$$ to produce $$S_{t+1}$$
+
+3. As opposed to some games like chess, the environment has two key characteristics:
+   a) deterministic nature
+   b) non-adversarial nature
 
 
 
