@@ -1,10 +1,11 @@
 ---
 title: 'Notes on RLHF for LLM'
-date: 2024-07-12
-permalink: /posts/2013/08/blog-post-2/
+date: 2024-12-07
+permalink: /posts/2024/12/notes-rlhf4llm/
 tags:
   - RLHF
-  - category1
+  - LLM
+  - Notes
 ---
 
 # RLHF Setting for LLM
