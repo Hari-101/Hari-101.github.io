@@ -1,5 +1,5 @@
 ---
-title: 'Solving all of World Problems with LLM(Click-Bait?)'
+title: 'Queries on LLM-based Multi-Agentic System'
 date: 2024-10-29
 permalink: /posts/2013/08/blog-post-2/
 tags:
