@@ -1,14 +1,12 @@
 ---
 title: 'Solving all of World Problems with LLM(Click-Bait?)'
 date: 2024-10-28
-permalink: /posts/2013/08/blog-post-2/
+permalink: /posts/2024/10/solving-world-problems-with-llm/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - LLM
 ---
 
-TLDR: Generate all possible string using a python program, evaluate each one using an LLM-Evaluator. But do we have a good enough verifier? Also pruning the search space with the LLM.
+TLDR: Generate all permutationally possible strings using a non-LLM program/ function, evaluate each one using an LLM-Evaluator. But do we have a good enough verifier? Also pruning the search space with the LLM.
 
 Related: Infinite Monkey Theorem, Automated Theorem Proving (1960s), Levins Universal Search(1973), Program Synthesis by enumeration
 
