@@ -8,7 +8,7 @@ tags:
   - Notes
 ---
 
-# One possible MDP Setting in RLHF for LLM at token level
+## One possible MDP Setting in RLHF for LLM at token level
 
 Let the vocabulary be set **V**.  
 Let an input query be:
