@@ -7,8 +7,7 @@ tags:
   - LLM
   - Notes
 ---
-
-## One possible MDP Setting in RLHF for LLM at token level
+How could the MDP in the RLHF setting for LLMs look like? Let us look at one of the possibilities here ...
 
 Let the vocabulary be set **V**.  
 Let an input query be:
