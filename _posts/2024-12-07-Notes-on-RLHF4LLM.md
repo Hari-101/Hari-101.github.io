@@ -47,5 +47,16 @@ $$
 
 where $\gamma(S_t)$ is the reward model.
 
+Some observations on this basic setup are:
+
+1. As opposed to a conventional DRL setup (let's say a computer screen as the state, some Atari game) where the dimensionality of the state remains fixed throughout,\
+   in the LLM setup, the dimensionality increases by a unit after every action (i.e., if the state is represented by 1 token at t=0, at t=1, it becomes 1 + the selected action in the previous time = 2), and so on, at t=3, 3 etc.
+
+2. The specific nature of the transition function, i.e., the concatenation of $$S_t$$ and $$A_t$$ to produce $$S_{t+1}$$
+
+3. As opposed to some games like chess, the environment has two key characteristics:
+   a) deterministic nature
+   b) non-adversarial nature
+
 
 
