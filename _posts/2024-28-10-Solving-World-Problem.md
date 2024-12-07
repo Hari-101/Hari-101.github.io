@@ -1,7 +1,7 @@
 ---
 title: 'Solving all of World Problems with LLM(Click-Bait?)'
 date: 2024-10-28
-permalink: /posts/2013/08/blog-post-2/
+permalink: /posts/2024/10/solving-world-problems-llm/
 tags:
   - cool posts
   - category1
