@@ -21,7 +21,7 @@ Multi-agent means multiple “different” agents. If they were all the same ent
       - Task-based differentiation
       - Mix of i. and ii
 
-Most of the current papers operate at the 2.2 level. What this means is that: lets say we have an LLM $$p(. \textbar x)$$, then two instances $$p(. \textbar x_1)$$ and $$p(. \textbar x_2)$$ are considered as separate entities/ agents as long as $$x_1 != x_2$$. This could even just be the difference of a single token. 
+Most of the current papers operate at the 2.2 level. What this means is that: lets say we have an LLM $$p(. \mid x)$$, then two instances $$p(. \mid x_1)$$ and $$p(. \mid x_2)$$ are considered as separate entities/ agents as long as $$x_1 != x_2$$. This could even just be the difference of a single token. 
 
 Ok, lets say we want to transition from a single agent setup to multi-agent setup. So, the hypothesis is that the gains due to division of labor (and its consequences) in humans could carry over to LLM-setting. Multi-agentic LLM setups could be seen as related to decomposition and ensembling prompting strategies. Mixture of Experts is also kind of like multi-agency at the architecture level.
 
