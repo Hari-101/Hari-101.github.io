@@ -1,0 +1,37 @@
+---
+layout: archive
+title: "Research Reading"
+permalink: /research-reading/
+author_profile: true
+excerpt: "My daily paper reading, notes, and research takeaways."
+---
+
+<p>A record of the papers I read and the ideas I take away from them.</p>
+
+<section aria-labelledby="daily-sprints">
+  <h2 id="daily-sprints">Daily Sprints</h2>
+  <p>Papers read each day, with brief notes and takeaways. The latest sprint appears first.</p>
+
+  {% assign sprints = site.data.daily_sprints | sort: "date" | reverse %}
+  {% if sprints.size > 0 %}
+    {% for sprint in sprints %}
+      <article class="daily-sprint">
+        <h3>
+          <time datetime="{{ sprint.date | date: '%Y-%m-%d' }}">{{ sprint.date | date: "%B %d, %Y" }}</time>
+        </h3>
+        <ul>
+          {% for paper in sprint.papers %}
+            <li>
+              <a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a>
+              {% if paper.note %}
+                {{ paper.note | markdownify }}
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </article>
+    {% endfor %}
+  {% else %}
+    <p>No daily sprints published yet.</p>
+  {% endif %}
+</section>

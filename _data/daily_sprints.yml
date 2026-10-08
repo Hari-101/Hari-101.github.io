@@ -1,0 +1,9 @@
+# Papers read each day. Keep dates quoted in YYYY-MM-DD format.
+# Replace the empty list below with entries like this:
+# - date: "YYYY-MM-DD"
+#   papers:
+#     - title: "Paper title"
+#       url: "https://arxiv.org/abs/PAPER_ID"
+#       note: "Optional takeaway or question from my reading."
+# Add more papers under the same date to keep each day in one sprint.
+[]
